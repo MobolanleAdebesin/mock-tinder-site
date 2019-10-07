@@ -35,7 +35,7 @@ main{
   grid-column: 1 / span 4;
   text-align: center;
   color: white;
-  height: 35rem;
+  height: 40rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -98,6 +98,17 @@ button{
 
 }
 
+li{
+  list-style: none;
+  text-align: left;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+a:hover{
+  color: #FE3178;
+}
 
 /* Class selectors */
 
@@ -108,6 +119,28 @@ button{
 .logo{
   width: 8.4rem;
   height: 2rem;
+
+}
+
+input[type=checkbox]{
+  display: none;
+}
+nav{ display: none;
+position: fixed;
+}
+
+input[type=checkbox]:checked ~ nav {
+  display: block;
+  margin-top: 2.5rem;
+  width: 100vw;
+  background-color: white;
+
+
+
+}
+.sublist{
+  font-size: 0.5em;
+
 
 }
 .nav-btn-container{
@@ -125,7 +158,10 @@ button{
   height: 2.5em;
   border-radius: 0.3em;
   color: #FE3178;
-
+}
+.login-btn-main:hover{
+  color: #fff;
+  background-image: linear-gradient( to left, #E5490E, #FE3178)
 }
 
 .nav-lines{
@@ -148,6 +184,9 @@ button{
   margin: 3em 0 auto;
   background-image: linear-gradient( to left, #FE3178, #E5490E);
   color: white;
+}
+.info-btn:hover{
+    background-image: linear-gradient( to left, #E5490E, #FE3178);
 }
 .foot-text{
 color: #F5F5F5;
@@ -186,7 +225,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 29rem;
+    height: 40rem;
     padding: 20em 0 0 0;
     margin: 1em 0 0 0;
   }
