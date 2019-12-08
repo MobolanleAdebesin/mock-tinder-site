@@ -14,6 +14,7 @@ html{
   animation-duration: 30000ms;
   animation-iteration-count: infinite;
   animation-timing-function: ease-out;
+  height: 100%;
 }
 body{
   display: grid;
@@ -21,6 +22,7 @@ body{
   grid-template-columns: 25vw 25vw 25vw 25vw;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  min-height: 100%;
 }
 header{
   /* background-color: pink; */
@@ -45,7 +47,7 @@ main{
 }
 footer{
   background-image: linear-gradient( to right, #0AFFB3,#50BCF3, #6E46F4);
-  grid-row: 3 / span 1;
+  /* grid-row: 3 / span 1; */
   grid-column: 1 / span 4;
   text-align: center;
   display: flex;
@@ -55,6 +57,7 @@ footer{
   animation-duration: 3000ms;
   animation-iteration-count: infinite;
   animation-timing-function: ease;
+  margin-bottom: -2rem;
 }
 button{
   font-weight: 700;
