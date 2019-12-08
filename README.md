@@ -4,10 +4,9 @@
 - As the life cycle of this project began with the development of a wireframe based on the layout of the original site, it demonstrates my ability to design a mobile-first responsive webpage from start to finish. 
 
 ### Examples
-![screenshot]
-(https://github.com/MobolanleAdebesin/mock-tinder-site/blob/master/Desktop%20Version%20Tinder%20Image%20Grab.png)
-![screenshot]
-(https://github.com/MobolanleAdebesin/mock-tinder-site/blob/master/Mobile%20Version%20Tinder%20Image%20Grab.png)
+![screenshot](https://github.com/MobolanleAdebesin/mock-tinder-site/blob/master/Desktop%20Version%20Tinder%20Image%20Grab.png)
+
+![screenshot](https://github.com/MobolanleAdebesin/mock-tinder-site/blob/master/Mobile%20Version%20Tinder%20Image%20Grab.png)
 
 This project was completed using a combination of fundamental HTML and CSS3 such as flexbox, grid, media queries, and keyframes 
 ``` css 
