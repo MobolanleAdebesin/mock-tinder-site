@@ -3,6 +3,9 @@
 - This project focuses on recreating a popular dating app website homepage using the fundamentals of HTML and CSS. 
 - As the life cycle of this project began with the development of a wireframe based on the layout of the original site, it demonstrates my ability to design a mobile-first responsive webpage from start to finish. 
 
+### Deployed site 
+The deployed site can be found [here](https://mobolanleadebesin.github.io/mock-tinder-site/)
+
 ### Examples
 ![screenshot](https://github.com/MobolanleAdebesin/mock-tinder-site/blob/master/Desktop%20Version%20Tinder%20Image%20Grab.png)
 
